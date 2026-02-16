@@ -1,0 +1,17 @@
+# ELEPHANT THERMAL MULTI-CLASS DATASET
+
+path: C:/Users/centr/Downloads/tauhid
+
+train: C:/Users/centr/Downloads/tauhid/train/images
+val: C:/Users/centr/Downloads/tauhid/valid/images
+test: C:/Users/centr/Downloads/tauhid/test/images
+
+nc: 8
+names: ['0', '1', '2', '3', 'animal', 'device', 'human', 'unknown']
+
+roboflow:
+  workspace: riss-tsbuj
+  project: elephant-oqdic
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/riss-tsbuj/elephant-oqdic/dataset/2
