@@ -143,53 +143,53 @@ elephant_detection/
 ```bash
 git clone https://github.com/tauhidalam01/elephant_detection.git
 cd elephant_detection
-
+```
 ---
 
 ## create virtual environment
-
+```
 python -m venv venv
-
+```
 ---
 
 ## for windows
-
+```
 venv\Scripts\activate
-
+```
 ---
 
 ## for linux
-
+```
 source venv/bin/activate
-
+```
 ---
 
 ## requirements.txt
-
+```
 streamlit
 ultralytics
 opencv-python-headless
 pillow
 numpy
 torch
-
+```
 ---
 
 ## packages.txt(streamlit cloud)
-
+```
 libgl1
 libglib2.0-0
-
+```
 ---
 
 ## train the model
-
+```
 python train.py
-
+```
 ---
 
 ## Fututre Improvement
-
+```
 - Real-time thermal camera feed
 
 - Edge device deployment (Jetson Nano / Raspberry Pi)
@@ -199,7 +199,7 @@ python train.py
 - Elephant-only binary classifier
 
 - Model quantization for faster inference
-
+```
 ---
 
 ## Author
