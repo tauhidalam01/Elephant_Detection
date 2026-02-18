@@ -20,6 +20,25 @@ Upload a thermal image → Get detection results instantly.
 
 ---
 
+## Architecture 
+```
+User (Upload Image)
+↓
+Streamlit UI (app.py)
+↓
+Model Loader (YOLOv8)
+↓
+Inference Engine
+↓
+Detection Results
+↓
+Visualization (Annotated Image)
+↓
+Streamlit Display
+```
+
+---
+
 ## 🎯 Project Objective
 
 Although trained as a **multi-class detector**, the real-world application focuses on:
