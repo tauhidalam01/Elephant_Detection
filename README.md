@@ -106,7 +106,7 @@ Example:
 ```python
 if cls == 0 and conf > 0.62:
     trigger_alert()
-
+```
 ---
 
 ## 🛠 Tech Stack
