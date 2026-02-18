@@ -11,8 +11,10 @@ st.write("Upload an image and get predictions")
 # ✅ Cache model
 @st.cache_resource
 def load_model():
-    model = YOLO(r"C:/Users/user\Desktop/tauhid_THERMAL/train_results/elephant_yolov8n_multi_class/weights/best.pt")
-    model.to("cpu")   # safer
+    model = YOLO(
+        r"train_results/elephant_yolov8n_multi_class/weights/best.pt"
+    )
+    model.to("cpu")
     return model
 
 try:
