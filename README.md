@@ -135,6 +135,7 @@ elephant_detection/
 │ └── best.pt
 
 ---
+
 ## ⚙️ Installation (Local Setup)
 
 ### 1️⃣ Clone Repository
@@ -143,14 +144,25 @@ elephant_detection/
 git clone https://github.com/tauhidalam01/elephant_detection.git
 cd elephant_detection
 
+---
+
 ## create virtual environment
+
 python -m venv venv
 
+---
+
 ## for windows
+
 venv\Scripts\activate
 
+---
+
 ## for linux
+
 source venv/bin/activate
+
+---
 
 ## requirements.txt
 
@@ -161,10 +173,14 @@ pillow
 numpy
 torch
 
+---
+
 ## packages.txt(streamlit cloud)
 
 libgl1
 libglib2.0-0
+
+---
 
 ## train the model
 
