@@ -225,8 +225,5 @@ python train.py
 ```
 Tauhid Alam
 Machine Learning | Deep Learning | Gen AI
+
 ---
-
-
-
-
