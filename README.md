@@ -222,9 +222,9 @@ python train.py
 ---
 
 ## Author
-
+```
 Tauhid Alam
-
+Machine Learning | Deep Learning | Gen AI
 ---
 
 
