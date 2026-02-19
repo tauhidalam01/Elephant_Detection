@@ -15,6 +15,8 @@ The model is trained on a **multi-class dataset**, where:
 
 🔗 Streamlit App:  
 https://tauhidalam01-elephant-detection-app-btyyfx.streamlit.app/
+🔥 Hugging Face:  
+https://huggingface.co/spaces/01Tauhid/Thermal_Elephant_image_Detection
 
 Upload a thermal image → Get detection results instantly.
 
